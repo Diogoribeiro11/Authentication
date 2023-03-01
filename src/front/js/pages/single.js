@@ -23,6 +23,13 @@ export const Single = props => {
 	);
 };
 
+/*NOVO!!!!!!!*/
+
+Single.propTypes = {
+	match: PropTypes.object
+};
+
+
 Single.propTypes = {
 	match: PropTypes.object
 };
